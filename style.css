@@ -5,3 +5,16 @@
     list-style: none;
     text-decoration: none;
 }
+.burger_menu{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.menu{
+
+width: 30px;
+height: 4px;
+background-color: black;
+
+}
