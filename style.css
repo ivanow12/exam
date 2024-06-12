@@ -182,4 +182,95 @@ header{
         gap: 8px;
     }
 
+    .header_bulging-img{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: 70px;
+        
+
+    }
+
+    .talk_listen{
+        display: flex;
+        flex-direction: column;
+        padding-top: 100px;
+    }
+
+    .talk_listen-title{
+        text-align: center;
+        font-weight: 700;
+        font-size: 27px;
+        line-height: 35px;
+        color: #000000;
+        letter-spacing: -2%;
+    }
+
+    .container_bulb-thinks{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 80px;
+    }
+    .talk_listen-thinks , .talk_listen-bulb{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    .talk_listen-thinks_p , .talk_listen-bulb_p{
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 25px;
+        text-align: center;
+        padding-top: 50px;
+    }
+    .talk_listen-star {
+        position: relative;
+        
+        
+    }
+    .talk_listen-star_img{
+        position:absolute ;
+        width: 75px;
+        right: 0%;
+        top: 55px;
+    }
+
+    .talk_listen-quote{
+        margin-top: 100px;
+        padding-top: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #F7EDE8;
+    }
+
+    .talk_listen-quote_p{
+        margin-top: 30px;
+        text-align: center;
+        color: #000000;
+        font-weight: 700;
+        font-size: 21px;
+        line-height: 25px;
+        letter-spacing: -2%;
+    }
+    .talk_listen-quote_john-smith{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 40px;
+        gap: 25px;
+    }
+    .talk_listen-quote_john-smith_name-avatar , .talk_listen-quote_john-smith_social{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 13px;
+    }
 }
